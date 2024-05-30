@@ -1,0 +1,70 @@
+body {
+	background: url(img/greenfon.png);
+	background-size: cover;
+}
+.menu {
+	list-style: none;
+    text-align: center;
+    padding: 0px;
+	background-color:yellow;
+	border-radius:100px;
+}.menu li {
+	display: inline-block;
+}
+.menu a { 
+display: block;
+    text-decoration: none;
+    padding:30px;
+	font-size:35px;
+	color:green;
+	transition: all 0.5s;
+}
+.menu a:hover{
+	transform: scale(1.1);
+	
+}
+.menu a.active{
+	color: #0800EB;
+}
+.ol li{
+	font-size:30px;
+	margin-bottom:20px;
+	
+}
+.ukr {
+	display:block;
+	width:400px;
+	margin: 0 auto;
+}
+.earn{
+	border-radius:70px;
+	display:block;
+	width:800px;
+	margin: 0 auto;
+}
+.lo li{
+	font-size:25px;
+	margin-bottom:20px;
+}
+
+.donate a{
+	text-decoration: none;
+}
+.donate{
+	text-align:center;
+	width:660px;
+	/* height:500px; */
+	border:10px solid #ff9900 ;
+	background-color:#ffff66;
+	/* margin-left:50px; */
+	padding-top:30px;
+	font-size:30px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.donatewrap {
+	display:flex;
+	justify-content:center;
+	gap:50px;
+}
